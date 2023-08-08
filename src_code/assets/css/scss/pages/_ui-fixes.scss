@@ -1,0 +1,95 @@
+.progress{
+    margin-bottom: 15px;
+}
+.bd-example-row-flex-cols .row {
+    min-height: 10rem;
+    background-color: rgba(26, 115, 233, 0.26);
+}
+.bd-example-row [class^="col"], .bd-example-cssgrid .grid>* {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(26, 115, 233, 0.26);
+    border: 1px solid rgba(26, 115, 233, 0.26);
+}
+.bd-example-row .row+.row, .bd-example-cssgrid .grid+.grid {
+    margin-top: 1rem;
+}
+.list-group-item.active{
+    z-index: 0 !important;
+}
+.bd-example-ratios .ratio>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bd-example-ratios .ratio {
+    display: inline-block;
+    width: 10rem;
+    color: var(--bs-secondary-color);
+    background-color: var(--bs-tertiary-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    text-anchor: middle;
+}
+.bd-example-zindex-levels>div {
+    color: var(--bs-body-bg);
+    background-color:  rgba(26, 115, 233, 1);
+    border: 1px solid rgba(44, 93, 158,1);
+}
+.bd-example-zindex-levels>div>span {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.bd-example-zindex-levels {
+    min-height: 15rem;
+}
+.bd-example-zindex-levels>:nth-child(2) {
+    top: 3rem;
+    left: 3rem;
+}
+.bd-example-zindex-levels>:nth-child(3) {
+    top: 4.5rem;
+    left: 4.5rem;
+}
+.bd-example-zindex-levels>:nth-child(4) {
+    top: 6rem;
+    left: 6rem;
+}
+.bd-example-zindex-levels>:nth-child(5) {
+    top: 7.5rem;
+    left: 7.5rem;
+}
+
+.z-3 {
+    z-index: 3!important;
+}
+.z-2 {
+    z-index: 2!important;
+}
+.z-1 {
+    z-index: 1!important;
+}
+.z-0 {
+    z-index: 0!important;
+}
+.z-n1 {
+    z-index: -1!important;
+}
+.ux4g-themed-grid-col {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(26, 115, 233, 0.26);
+    border: 1px solid rgba(26, 115, 233, 0.26);
+}
+.ux4g-themed-container {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(26, 115, 233, 0.26);
+    border: 1px solid rgba(26, 115, 233, 0.26);
+}
