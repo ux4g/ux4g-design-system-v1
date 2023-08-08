@@ -1,0 +1,11 @@
+FROM 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:base
+LABEL maintainer="DIGILOCKER"
+LABEL version="1.0"
+ENV TZ="Asia/Kolkata"
+
+COPY src_code/ /var/www/
+
+RUN chown -R root:root /var/www/
+WORKDIR /var/www
+EXPOSE 80
+CMD ["/usr/bin/supervisord", "-n"]

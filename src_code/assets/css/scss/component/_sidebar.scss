@@ -1,0 +1,26 @@
+// sidebar
+.left_side{
+.dropdown-toggle {
+    &::after{
+        display: none !important;    
+    }
+    &::before{
+    content: '';
+    box-sizing: border-box;
+    height: 9px;
+    width: 9px;
+    border-style: solid;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out; 
+    display: inline-block;  
+    }
+}
+}
+.left_side #navbarNav #navbarDropdown.show{
+    .dropdown-toggle{
+        &::before{
+            transform: rotate(226deg);
+        }
+    }
+}

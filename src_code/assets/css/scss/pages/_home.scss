@@ -1,0 +1,35 @@
+.main_raper{
+    display: flex;
+    align-items: flex-start;
+}
+.left_side{
+    padding: 15px 15px 15px 6px;
+    border-right: solid 1px var(--color-light-gray3);
+    margin-right: 20px;
+    height: calc(100vh - 100px);
+    // height: 100vh;
+    overflow: auto;
+    top: calc(13vh - 16px);
+    position: sticky;
+    width: 16%;
+    padding-top: 33px;
+}
+
+.body_raper{
+//    flex:1;
+    width: 80%;
+}
+.right_side{
+    padding: 30px 15px;
+    border-left: solid 1px var(--color-light-gray3);
+    margin-left: 30px;
+    overflow-y: auto;
+    position: sticky;
+    top: calc(25vh - 16px);
+    right: 50px;
+    height: calc(100vh - 174px);
+    
+}
+
+
+

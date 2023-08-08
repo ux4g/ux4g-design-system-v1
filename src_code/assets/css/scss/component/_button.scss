@@ -1,0 +1,23 @@
+.btn-main {
+    background: var(--color-magenta);
+    border: medium none;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 15px 31px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-main:hover {
+    background: #86C7ED;
+    color: #fff;
+}
+.bd-example>.btn, .bd-example>.btn-group {
+    margin: 0.25rem 0.125rem;
+}

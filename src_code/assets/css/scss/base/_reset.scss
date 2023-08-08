@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button, select{
+    background: none;
+}

@@ -1,0 +1,40 @@
+.footer_terms {
+
+    .footer_terms_link {
+
+        text-align: center;
+
+        a {
+            color: var(--color-black7);
+            font-size: 12px;
+        }
+    }
+
+    .footer_social {
+        gap: 20px;
+    }
+}
+
+.copy-write {
+    border-top: solid 1px var(--color-light-gray3);
+    padding: 10px 10px 15px 10px;
+    color: var(--color-black7);
+    text-align: center;
+    position: absolute;   
+    bottom: 0; 
+    left: 0;
+    width: 100%;    
+    overflow: hidden;
+    background-color: var(--bs-body-bg);
+
+    .copy-write-content {
+        p {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+
+
+@media(max-width:767px) {}

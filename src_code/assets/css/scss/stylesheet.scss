@@ -1,0 +1,37 @@
+@import "./themes/variables"; 
+@import "./themes/light-dark-mode";
+
+// base
+@import "./base/typography";
+@import "./base/reset";
+
+// utils
+@import "./utils/utils";
+
+// layout
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/slider";
+@import "./layouts/global";
+
+// component
+@import "./component/button";
+@import "./component/accordion";
+@import "./component/sidebar";
+@import "./component/border";
+@import "./component/media";
+@import "./component/grid";
+
+
+// pages
+@import "./pages/home";
+@import "./pages/ui-fixes";
+@import "./pages/docs";
+
+// vendor
+
+// @import "./vendor/animate.min";
+// @import "./vendor/owl.carousel.min";
+// @import "./vendor/slick";
+// @import "./vendor/slick-theme";
+// @import "./vendor/font-awesome.min";

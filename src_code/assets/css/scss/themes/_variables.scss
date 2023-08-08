@@ -1,0 +1,61 @@
+:root {
+--color-magenta: #a066cc;
+--color-magenta-light: #D6C7EB;
+--color-magenta-light2: #E6D9F3;
+--color-magenta-light3: #E9E1F8;
+--color-magenta-light4: #EFEBFB;
+--color-magenta-light5: #DFD8F9;
+--color-magenta-light6: #F6F4FD;
+--color-purple: #4a2997;
+--color-purple-dark: #1e1465;
+--color-blue-dark: #1b2430;
+--color-blue-dark1: #081854;
+--color-blue2: #1937B2;
+--color-blue3: #5189E0;
+--color-blue4: #BBE2F4;
+--color-gray:#f7f7fd;
+--color-gray1:#f4f9ff;
+--color-gray2:#495059;
+--color-gray3:#EBEBEB;
+--color-gray4:#9690A2;
+--color-gray5:#7E838B;
+--color-gray6:#EEEEEE;
+--color-light-gray:#f4f1fe;
+--color-light-gray2:#F8F8F8;
+--color-light-gray3:#dadde1;
+--color-white:#fff;
+--color-black: #000;;
+--color-black1: #222;
+--color-black2: #383838;
+--color-black3: #161519;
+--color-black4: #151515;
+--color-black5: rgba(45, 42, 52);
+--color-black6: #111013;
+--color-black7: #373737;
+--color-black8: #555555;
+--color-black9: #292c35;
+--color-black10: rgb(51 55 66);
+
+    // font
+    --f-roboto: 'Roboto', sans-serif;
+  }
+
+
+  // color classes
+
+  .text-white{
+    color: var(--color-white);
+  }
+  .text-blue{
+    color: var(--color-blue2);
+  }
+  .text-magenta {
+    color: var(--color-magenta);
+  }
+
+  // transition
+
+  
+  
+
+  
