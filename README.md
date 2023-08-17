@@ -1,48 +1,84 @@
-Readme for UX4G NGINX
+<h1>UX4G Design System</h1>
+Our default branch is for development of our UX4G release.
+<h2>Quick start</h2>
+Several quick start options are available:
+<ul>
+  <li><a href="/assets/UX4G@1.0.0.zip target="_blank"">Download the latest release</a> </li>
+</ul>
+<ul>
+  <li>Clone the repo: <code>git clone https://github.com/ux4g/ux4g-design-system-v1.git</code> </li>
+</ul>
+Read the <a href="https://doc.ux4g.gov.in/">Getting started page </a> for information on the framework contents, templates, examples, and more.
 
-1.) Retrieve an authentication token and authenticate your Docker client to your registry.
-aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 788384700272.dkr.ecr.ap-south-1.amazonaws.com
+<h2>What's included</h2>
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations.
+<details>
+  <summary>Download contents</summary>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre lang="text" class="notranslate"><code>ux4g/
+├── css/
+│   ├── ux4g-grid.css
+│   ├── ux4g-grid.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-grid.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-grid.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-grid.rtl.css
+│   ├── ux4g-grid.rtl.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-grid.rtl.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-grid.rtl.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-reboot.css
+│   ├── ux4g-reboot.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-reboot.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-reboot.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-reboot.rtl.css
+│   ├── ux4g-reboot.rtl.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-reboot.rtl.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-reboot.rtl.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-utilities.css
+│   ├── ux4g-utilities.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-utilities.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-utilities.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-utilities.rtl.css
+│   ├── ux4g-utilities.rtl.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g-utilities.rtl.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g-utilities.rtl.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g.css
+│   ├── ux4g.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g.<span class="hljs-built_in">min</span>.css
+│   ├── ux4g.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g.rtl.css
+│   ├── ux4g.rtl.css.<span class="hljs-built_in">map</span>
+│   ├── ux4g.rtl.<span class="hljs-built_in">min</span>.css
+│   └── ux4g.rtl.<span class="hljs-built_in">min</span>.css.<span class="hljs-built_in">map</span>
+└── js/
+    ├── ux4g.bundle.js
+    ├── ux4g.bundle.js.<span class="hljs-built_in">map</span>
+    ├── ux4g.bundle.<span class="hljs-built_in">min</span>.js
+    ├── ux4g.bundle.<span class="hljs-built_in">min</span>.js.<span class="hljs-built_in">map</span>
+    ├── ux4g.esm.js
+    ├── ux4g.esm.js.<span class="hljs-built_in">map</span>
+    ├── ux4g.esm.<span class="hljs-built_in">min</span>.js
+    ├── ux4g.esm.<span class="hljs-built_in">min</span>.js.<span class="hljs-built_in">map</span>
+    ├── ux4g.js
+    ├── ux4g.js.<span class="hljs-built_in">map</span>
+    ├── ux4g.<span class="hljs-built_in">min</span>.js
+    └── ux4g.<span class="hljs-built_in">min</span>.js.<span class="hljs-built_in">map
+</code></pre></div>
+</details>
+<p>We provide compiled CSS and JS (ux4g.*), as well as compiled and minified CSS and JS (ux4g.min.*). Source maps (ux4g.*.map) are available for use with certain browsers' developer tools. Bundled JS files (ux4g.bundle.js and minified ux4g.bundle.min.js) include <a href="https://popper.js.org/" target="_blank">Popper</a>.</p>
+<h2>Community</h2>
+<p>Get updates on UX4G's development and chat with the project maintainers and community members.
+</p>
+<u>
+  <li>Follow <a href="https://twitter.com/ux_4g" target="_blank">@ux_4g on Twitter</a></li>
+</u>
+<u>
+  <li>Watch and subscribe <a href="https://www.youtube.com/@UX4G/about"target="_blank">UX4g Youtube channel</a></li>
+</u>
+<u>
+  <li>Read and subscribe <a href="https://medium.com/@ux4g.gov.in"target="_blank">The UX4g Blog</a></li>
+</u>
 
-2.) Build your Docker image using the following command.
-docker build . -f Dockerfile-design-system-html-base--no-cache -t design-system-html:base
 
-3.) After the build completes, tag your image so you can push the image to this repository:
-
-docker tag design-system-html:base 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:base
-
-4.) Run the following command to push this image to your newly created AWS repository:
-
-docker push 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:base
-
-#BASE
-docker build . -f Dockerfile-design-system-html-base -t design-system-html:base
-docker tag design-system-html:base 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:base
-docker push 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:base
-
-#BETA
-docker build . -f Dockerfile-design-system-html-beta -t design-system-html:beta
-docker tag design-system-html:beta 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:beta
-docker push 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:beta
-
-#PROD
-docker build . -f Dockerfile-design-system-html-prod -t design-system-html:prod
-docker tag design-system-html:prod 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:prod
-docker push 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:prod
-
-#LOCAL
-docker build . -f Dockerfile-design-system-html-local -t design-system-html:local
-docker tag design-system-html:local 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:local
-docker run -dit -p 8007:80 -v D:/design-system-html/src_code:/var/www --restart always --name design-system-html design-system-html:local
-docker run -dit -p 8030:80 -v E:/Xampp/htdocs/local/ux4g/ux4g-website/src_code:/var/www --restart always --name design-system-html design-system-html:local
-
-docker push 788384700272.dkr.ecr.ap-south-1.amazonaws.com/design-system-html:local
-
-
-git add --all
-git commit -m "updated"
-git checkout master
-git merge develop
-git push origin develop master
-
-
-docker run -dit -p 8004:80 -v D:/design-system-html/src_code:/var/www --restart always --name design-system-html-beta design-system-html:beta
+ <h2>Versioning</h2>
+<p>For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under the <a href="https://semver.org/" target="_blank">Semantic Versioning guidelines</a>. Sometimes we screw up, but we adhere to those rules whenever possible.</p>
+<h2>Copyright and license</h2>
+<p>Code and documentation copyright 2023. Docs released under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a></p> 
