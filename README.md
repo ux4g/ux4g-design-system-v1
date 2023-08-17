@@ -76,9 +76,10 @@ Within the download you'll find the following directories and files, logically g
 <u>
   <li>Read and subscribe <a href="https://medium.com/@ux4g.gov.in"target="_blank">The UX4g Blog</a></li>
 </u>
-
-
  <h2>Versioning</h2>
 <p>For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under the <a href="https://semver.org/" target="_blank">Semantic Versioning guidelines</a>. Sometimes we screw up, but we adhere to those rules whenever possible.</p>
+<h2>Creators</h2>
+  U4GX
+<a href="https://twitter.com/ux_4g" target="_blank">@ux_4g on Twitter</a>
 <h2>Copyright and license</h2>
 <p>Code and documentation copyright 2023. Docs released under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a></p> 
