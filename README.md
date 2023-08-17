@@ -1,3 +1,6 @@
+<p align="center" dir="auto">
+   <img style="height:auto; " alt="" src="https://avatars.githubusercontent.com/u/128448595?v=4" width="160" height="160" >
+</p>
 <h1>UX4G Design System</h1>
 Our default branch is for development of our UX4G release.
 <h2>Quick start</h2>
