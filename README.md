@@ -1,5 +1,5 @@
 <p align="center" dir="auto">
-   <img style="height:auto; " alt="" src="https://avatars.githubusercontent.com/u/128448595?v=4" width="160" height="160" >
+   <img style="height:auto; " alt="" src="https://miro.medium.com/v2/resize:fill:176:176/1*xumZgHQaB2V-7TRglungzQ.png" width="160" height="160" >
 </p>
 <h1>UX4G Design System</h1>
 Our default branch is for development of our UX4G release.
