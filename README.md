@@ -6,7 +6,7 @@ Our default branch is for development of our UX4G release.
 <h2>Quick start</h2>
 Several quick start options are available:
 <ul>
-  <li><a href="/assets/UX4G@1.0.0.zip target="_blank"">Download the latest release</a> </li>
+  <li><a href="https://doc.ux4g.gov.in/assets/UX4G@1.0.0.zip" >Download the latest release</a> </li>
 </ul>
 <ul>
   <li>Clone the repo: <code>git clone https://github.com/ux4g/ux4g-design-system-v1.git</code> </li>
