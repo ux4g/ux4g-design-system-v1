@@ -1,5 +1,5 @@
 <p align="center" dir="auto">
-   <img style="height:auto; " alt="" src="https://miro.medium.com/v2/resize:fill:176:176/1*xumZgHQaB2V-7TRglungzQ.png" width="160" height="160" >
+   <img style="height:auto; " alt="" src="https://miro.medium.com/v2/resize:fill:176:176/1*xumZgHQaB2V-7TRglungzQ.png"  height="200" >
 </p>
 <h1>UX4G Design System</h1>
 Our default branch is for development of our UX4G release.
@@ -80,7 +80,7 @@ Within the download you'll find the following directories and files, logically g
   <li>Read and subscribe <a href="https://medium.com/@ux4g.gov.in"target="_blank">The UX4g Blog</a></li>
 </u>
  <h2>Versioning</h2>
-<p>For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under the <a href="https://semver.org/" target="_blank">Semantic Versioning guidelines</a>. Sometimes we screw up, but we adhere to those rules whenever possible.</p>
+<p>For transparency into our release cycle and in striving to maintain backward compatibility, ux4g is maintained under the <a href="https://semver.org/" target="_blank">Semantic Versioning guidelines</a>. Sometimes we screw up, but we adhere to those rules whenever possible.</p>
 <h2>Creators</h2>
   U4GX
 <a href="https://twitter.com/ux_4g" target="_blank">@ux_4g on Twitter</a>
