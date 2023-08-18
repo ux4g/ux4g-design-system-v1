@@ -67,6 +67,35 @@ Within the download you'll find the following directories and files, logically g
 </code></pre></div>
 </details>
 <p>We provide compiled CSS and JS (ux4g.*), as well as compiled and minified CSS and JS (ux4g.min.*). Source maps (ux4g.*.map) are available for use with certain browsers' developer tools. Bundled JS files (ux4g.bundle.js and minified ux4g.bundle.min.js) include <a href="https://popper.js.org/" target="_blank">Popper</a>.</p>
+<h2>Documentation</h2>
+<div class="table-responsive"><table class="table">
+<thead>
+<tr>
+<th>Description</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CSS</td>
+<td><code>https://img1.digitallocker.gov.in/ux4g/UX4G@1.0.0/css/ux4g-min.css</code></td>
+</tr>
+<tr>
+<td>JS</td>
+<td><code>https://img1.digitallocker.gov.in/ux4g/UX4G@1.0.0/js/ux4g.min.js</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>OR</p>
+<h3>Compiled CSS and JS</h3>    
+  <p>
+   Drop ready-to-use compiled code for <strong> UX4G v1.0.0 </strong> into the project by downloading it, which contains:
+ </p>   
+  <ul class="un_order_list pl-30">
+                        <li>CSS bundles that have been combined and compressed  (see <a href="https://img1.digitallocker.gov.in/ux4g/UX4G@1.0.0/css/ux4g-min.css" target="_blank" rel="noopener noreferrer">CSS files comparison</a>)</li>
+                        <li>JavaScript plugins that have been compiled and minified (see <a href="https://img1.digitallocker.gov.in/ux4g/UX4G@1.0.0/js/ux4g.min.js" target="_blank" rel="noopener noreferrer">JS files comparison</a>)</li></ul>   
+ <p>This excludes any source files, documentation, or optional JavaScript dependencies like Popper.</p>
+  <a href="/assets/UX4G@1.0.0.zip" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary mb-100">Download</a>     
 <h2>Community</h2>
 <p>Get updates on UX4G's development and chat with the project maintainers and community members.
 </p>
